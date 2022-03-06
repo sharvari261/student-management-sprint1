@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+.navbar {
+    height: 50px;
+}
+.logo {
+    height: 50px;
+    width: 100px;
+}
+a {
+    float:right;
+    text-decoration: none;
+    margin-right: 5px;
+    width: 110px;
+    font-size:medium;
+    font-weight: bold;
+}
+a:link, a:visited {
+    background-color: rgb(235, 178, 21);
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid black;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(238, 132, 197);
+  }
+  .body {
+      border: 1px solid white;
+      margin: 50px 0 0 0;
+      background-image: url(https://cdn.hovia.com/app/uploads/Rainbow-WEBSITE-SWATCH.png);
+      display: flex;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .name{
+      height: 400px;
+      margin-top: 150px;
+      margin-left: 30px;
+  }
+  
+  .tagLine {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size:small;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .scl {
+    font-family: 'Great Vibes', cursive;
+    font-size: larger; 
+    font-weight: bolder;
+  }
+  .desc {
+      font-size: 70px;
+      font-family: 'Chakra Petch', sans-serif;
+  }
+  #bodyLink{
+      float: none;
+  }
+  .body-img {
+      display: inline;
+     /* /height:400px; */
+     margin-top: 19px;
+     margin-left: 500px;
+  }
+  .bodyI {
+      height: 510px;
+  }
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+    margin-top: 7px;
+  }
+  .profileBody {
+    /* border: 1px solid black; */
+    display: flex;
+    height: 500px;
+  }
+  .stdImg {
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 40%;
+    margin-top: 8%;
+    margin-left: 10%;
+  }
+  .std {
+    height: 97%;
+    border-radius: 50px;
+  }
+  .stdInfo {
+    margin-left: 15%;
+    margin-top: 1%;
+  }
+  /* table, th, td {
+    /* border: 1px solid black; 
+} */
+table {
+    border-collapse: collapse;
+}
+th, td {
+    padding: 7px;
+    font-size: 17px;
+}
+.editLink {
+  height: 4.5%;
+  margin-top: 28%;
+  margin-left: 15%;
+}
+h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 60px;
+  text-align: center;
+}
